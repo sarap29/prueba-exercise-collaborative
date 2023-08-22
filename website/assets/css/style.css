@@ -33,3 +33,13 @@ h3.jumbotron {
     border-radius: 0px;
     border: 1px solid #fff !important;
 }
+
+p {
+    text-align: center;
+}
+
+
+.row.footer.px-5 {
+    border-top: 1px solid #d9d9d9;
+    background: #dedede;
+}
