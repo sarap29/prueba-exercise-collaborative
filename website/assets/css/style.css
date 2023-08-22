@@ -1,3 +1,35 @@
-body{
-    background: #BDBDBD;
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    background-image: url('https://images.pexels.com/photos/1744663/pexels-photo-1744663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top: 200px;
+  }
+/*
+  h1 {
+    font-size: 76px;
+    color: rgb(54, 54, 54);
+    margin: 10px 320px;
+  }
+  
+h3.jumbotron {
+    font-size: 60px;
+    color: rgb(54, 54, 54);
+    margin: 10px 292px;
+  }
+*/
+  .card {
+    border-radius: 0px;
+    border: 1px solid #fff !important;
+}
+
+.card-group{
+    border-radius: 0px;
+    border: 1px solid #fff !important;
 }
